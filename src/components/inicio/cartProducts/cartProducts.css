@@ -1,0 +1,132 @@
+
+#cartSectionPlatos{
+display: flex;
+  flex-wrap: wrap;
+}
+
+.miProyect{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.modelProyects{
+    padding-left: 6%;
+    padding-right: 6%;
+    height: 320px;
+    min-height: 320px;
+    max-height: 320px;
+}
+.proyects button{
+ width: 320px;
+ height: 50px;
+ background-color: #ee6141;
+ border: 1px solid #fff;
+ color: #fff;
+}
+.proyects button a{
+   text-decoration: none;
+   color: #fff;
+   }
+.proyects button:hover{
+    color:#000000;
+    background-color: #ffa475;
+    box-shadow: 0 0 .2rem #fff;
+    font-weight:800;
+    font-size:19px; 
+}
+
+.descripcion{
+    overflow: auto;
+    height: 75px;
+    width: 330px;
+}
+.proyects{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 320px;
+    height: 500px;
+    border: 1px solid #b3b1b1;
+    box-shadow:0px 0px 5px 0px#bdb9b9;
+    border-radius: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.buttonCloseBrowse{
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid #ffa475;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 280px;
+    margin: 20px;
+   
+}
+.buttonCloseBrowse a{
+text-decoration: none;
+color: #000000;
+}
+.buttonCloseBrowse a:hover{
+    color: #fff;
+    }
+.buttonCloseBrowse:hover{
+    background-color: #ffa475;
+    color: #000000;
+    border: 2px solid #fff;
+    font-weight: 700;
+   
+}
+.buttonAddCart{
+    background-color: #ee6141;
+    color: #fff;
+    border: 2px solid #ee6141;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    min-width: 220px;
+}
+.buttonAddCart:hover{
+    background-color: #ffa475;
+    color: #000000;
+    border: 2px solid #ffa475;
+    font-size: 19px;
+
+}
+
+.buttonContador{
+    background-color: #ee6141;
+    color: #fff;
+    border: 2px solid #ee6141;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 60px;
+}
+.numberCantidades{
+    background-color: #fff;
+    color: #000000;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 18px;
+    width: 60px; 
+}
+.buttonContador:hover{
+    background-color: #ffa475;
+    border: 2px solid #ffa475;
+    color: #000000;
+    font-size: 19px;
+
+}
+
+.modalDetalleImg{
+    height: 400px;
+    width: 100%;
+}

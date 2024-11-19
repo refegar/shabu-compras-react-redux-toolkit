@@ -1,0 +1,19 @@
+.ordenNow button{
+    cursor: pointer;
+    width:100%;
+     margin-top:40px; 
+     padding:10px;
+     font-weight:600;
+     font-size:18px; 
+     border:1px solid #fff; 
+     border-radius:15px; 
+     color:#fff; 
+     background-color:#ee6141;
+}
+.ordenNow button:hover{
+    color:#000000;
+    background-color: #ffa475;
+    box-shadow: 0 0 .2rem #fff;
+    font-weight:800;
+    font-size:19px; 
+    }

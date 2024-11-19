@@ -1,0 +1,63 @@
+form{
+    width: 50%;
+    border: 1px solid grey;
+    background-color: #fff;
+   
+}
+.containerReg{
+    margin-top: 10%;
+}
+.buttonEnviar{
+    width: 150px;
+    background-color: #ee6141;
+    border-radius: 10px;
+    border: 2px solid #ee6141 ;
+    color: #fff;
+    font-weight: 400;
+}
+.buttonEnviar:hover{
+    width: 150px;
+    background-color: #ffa475;
+    border-radius: 10px;
+    border: 2px solid #ffa475 ;
+    color: #000000;
+    font-weight: 600;
+}
+.buttonReset{
+    width: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #ffa475 ;
+    color: #000000;
+    font-weight: 400; 
+}
+.buttonReset:hover{
+    background-color: #ffa475;
+    color: #fff;
+    font-weight: 600; 
+}
+.errorFormulario{
+    border-radius: 10px;
+    background-color:#ee6141 ;
+    color: #fff;
+    padding: 8px;
+    font-size: 17px;
+    
+}
+.ButtonSesion{
+    text-decoration: none;
+    padding: 5px 14px 5px 14px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #ffa475 ;
+    color: #000000;
+    font-weight: 400; 
+    font-size: 20px;
+}
+
+.ButtonSesion:hover{
+    background-color: #ffa475;
+    color: #000000;
+    
+}
