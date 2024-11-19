@@ -1,6 +1,6 @@
 import { useRoutes } from "react-router";
 import Inicio from "../pages/Inicio";
-import Productos from "../pages/Productos";
+import Productos from "../pages/productos";
 import Nosotros from "../pages/Nosotros";
 import NoEncontrado from "../pages/NoEncontrado";
 import AddCart from "../pages/addCart";
