@@ -101,7 +101,7 @@ const AddCart = () => {
       <section>
        <div className="containerAddCart">
        <div className="modelAddCart p-0">
-                <div className="img mb-3 img-cover" ><img src={`img/shabu-platos/${productos.image}`} width={'100%'} height={'500px'} alt="banner"/></div>
+                <div className="img mb-3 img-cover" ><img src={`/img/shabu-platos/${productos.image}`} width={'100%'} height={'500px'} alt="banner"/></div>
                  <div className="title mb-2 font-weight-bolder fs-4 ps-5 pt-2" ><h3>{productos.nombre}</h3>
                  <div className='text-dark-green pt-2'><h5>{productos.categoria}</h5></div>
                  </div>
