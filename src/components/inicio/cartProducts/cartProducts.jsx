@@ -37,7 +37,7 @@ const cartProducts = () => {
     <div className="miProyect" >
              <div className="proyects" >
                 <div className="modelProyects p-0">
-                <div className="img mb-3 img-cover" ><img src={`img/shabu-platos/${producto.image}`} width={'350px'} height={'200px'} alt="banner"/></div>
+                <div className="img mb-3 img-cover" ><img src={`/img/shabu-platos/${producto.image}`} width={'350px'} height={'200px'} alt="banner"/></div>
                  <div className="title mb-2 font-weight-bolder fs-4 p-2" ><h3>{producto.nombre}</h3>
                  <div className='text-dark-green pt-2'><h5>{producto.categoria}</h5></div>
                  </div>
