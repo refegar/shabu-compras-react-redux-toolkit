@@ -169,7 +169,7 @@ const cartProductos = async (id)=>{
  productoCarrito.map((producto,idx)=>(
 
      <div className="containerDetalles mb-5" key={idx}>
-     <div className="img mb-3 img-cover" ><img src={`img/shabu-platos/${producto.image}`} width={'350px'} height={'250px'} alt="banner"/></div>
+     <div className="img mb-3 img-cover" ><img src={`/img/shabu-platos/${producto.image}`} width={'350px'} height={'250px'} alt="banner"/></div>
       <div className="itemsDescripcion">
       <div className="title mb-2 font-weight-bolder fs-4 ps-2 pt-2" ><h3>{producto.nombre}</h3>
       <div className='text-dark-green pt-2'><h5>{producto.categoria}</h5>
